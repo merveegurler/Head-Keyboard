@@ -1,0 +1,12 @@
+<!-- Replace "android.inputmethodservice.KeyboardView" with "com.example.deneme.MyKeyboardView" -->
+<com.example.deneme.MyKeyboardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/default_key"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:keyBackground="@drawable/key_background"
+    android:keyTextColor="@color/black"
+    android:keyTextSize="20sp"
+    android:labelTextSize="14sp"
+    android:shadowRadius="0.0"
+    android:shadowColor="@android:color/transparent"/>
